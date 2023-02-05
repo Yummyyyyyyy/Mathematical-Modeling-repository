@@ -1,6 +1,6 @@
 function [fitresult, gof] = createFit(year, population)
 %CREATEFIT(YEAR,POPULATION)
-%  创建一个拟合。
+%  创建一个拟合
 %
 %  要进行 'population_predict' 拟合的数据:
 %      X 输入: year
@@ -34,5 +34,3 @@ legend( h, 'population vs. year', 'population_predict', 'Location', 'NorthEast',
 xlabel( 'year', 'Interpreter', 'none' );
 ylabel( 'population', 'Interpreter', 'none' );
 grid on
-
-
