@@ -1,5 +1,5 @@
 % 导入数据
-load Homework/ch2_eg_data.mat
+% load Homework/ch2_eg_data.mat
 
 [n,m]=size(X);
 
