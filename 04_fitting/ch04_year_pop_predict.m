@@ -1,7 +1,7 @@
 % 使用函数拟合
 [fitresult, gof] = ch04_year_population_fit_f(year, population)
 
-% 利用拟合的数据，进行预测
+% 利用给定的拟合函数以及参数，进行预测
 t=2001:2030;
 r=0.02735;
 xm=342.4;
